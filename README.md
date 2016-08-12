@@ -1,5 +1,5 @@
-# Polimorfismo-Lobo-Feroz
-Ejemplo inicial. Objeto mensaje polimorfismo self
+# Polimorfismo: Lobo Feroz
+**Ejemplo inicial. Objeto mensaje polimorfismo self**
 
 *El lobo feroz necesita un sistema para simular sus actividades diarias y poder saber si va a dejar de estar gordo (o “rellenito” como piensa él cada vez que se mira al espejo)*
 
