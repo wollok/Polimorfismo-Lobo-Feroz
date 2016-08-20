@@ -51,10 +51,7 @@ object casaMadera{
 	var minutos = 15
 	var visitante
 	
-	method caloriasQueAporta(){
-		return 100
-	}
-	
+
 	method llega(alguien){
 		visitante = alguien
 	}
@@ -106,6 +103,9 @@ object chanchitoCasaMadera{
 	method peso(){
 		return 20
 	}
+	method caloriasQueAporta(){
+		return 7
+	}
 }
 
 object chanchitoTrabajador{
@@ -113,6 +113,9 @@ object chanchitoTrabajador{
 	
 	method peso(){
 		return edad * 5
+	}
+	method caloriasQueAporta(){
+		return self.peso()
 	}
 }
 
@@ -130,10 +133,12 @@ object canasta {
 }
 
 object caperucita{
-	var peso = 50
 	
 	method caloriasQueAporta(){
-		return peso + canasta.peso()
+		return 50 + canasta.peso()
+	}
+	method dondeVas(){
+		return casaAbuela
 	}
 }
 
@@ -159,4 +164,16 @@ object oveja{
 		return nombre.size()*5
 	}
 }
-
+ object duende {
+ 	var varitas = 0 
+ 	const altura = 5
+ 	
+ 	method encontrarVaritas(cantidad) {
+ 		varitas = varitas + cantidad
+ 	}
+ 
+ 	method caloriasQueAporta() {
+ 		return varitas + altura /10
+ 	}
+ 	
+ }
