@@ -1,7 +1,7 @@
 import loboFeroz.*
 
 object casaLadrillosMultitudinaria{
-	var ladrillos = 10
+	var ladrillos = 12
 	var capacidadMaxima = 3
 	var ocupantes = [chanchitoTrabajador]
 	
