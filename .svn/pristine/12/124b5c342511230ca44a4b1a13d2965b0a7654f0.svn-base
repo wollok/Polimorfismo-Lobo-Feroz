@@ -1,0 +1,19 @@
+import loboFeroz.*
+
+test "El lobo sopla casa de paja y sigue saludable" {
+	lobo.soplar(casaPaja)
+	assert.that(lobo.estasSaludable())
+}
+
+test "El lobo sopla casa de madera, con los dos chanchitos dentro, y queda con 25 calorias" {
+	casaMadera.llega(chanchito)
+	lobo.soplar(casaMadera)
+	assert.equals(lobo.calorias(),25)
+}
+
+test "El lobo sopla casa de ladrillos, con los tres chanchitos dentro, y queda con 0 calorias" {
+	casaLadrillos.llega(chanchito)
+	casaLadrillos.llega(chanchitoCasaMadera)
+	lobo.soplar(casaLadrillos)
+	assert.equals(lobo.calorias(),0)
+}

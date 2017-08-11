@@ -1,0 +1,19 @@
+import loboFeroz.*
+
+program caperucitaYElLobo {
+	
+	console.println("Lobo al inicio: " + lobo.calorias())
+	lobo.correrA(bosque)
+	console.println("Lobo luego de correr al bosque: " + lobo.calorias())
+	lobo.comer(oveja)
+	console.println("Lobo luego de comerse la oveja: " + lobo.calorias())
+	lobo.correrA(casaAbuela)
+	console.println("Lobo luego de correr a la casa de la abuela: " + lobo.calorias())
+	lobo.comer(abuela)
+	console.println("Lobo luego de comerse a la abuela: " + lobo.calorias())
+	lobo.comer(caperucita)
+	console.println("Lobo luego de comerse a caperucita: " + lobo.calorias())
+	console.println("Esta gordo el lobo? " +lobo.estasGordo())
+	console.println("Esta saludable el lobo? " +lobo.estasSaludable())
+
+}
