@@ -1,7 +1,7 @@
 
 object lobo {
 
-	var calorias = 100
+	var calorias = 120
 	
 	method calorias(){
 		return calorias
