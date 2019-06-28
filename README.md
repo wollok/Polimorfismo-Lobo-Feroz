@@ -1,8 +1,10 @@
-# Polimorfismo: Lobo Feroz
+# Lobo Feroz
  
 [![Build Status](https://travis-ci.org/wollok/polimorfismoLoboFeroz.svg?branch=master)](https://travis-ci.org/wollok/polimorfismoLoboFeroz)
 
 **Ejemplo inicial. Objeto mensaje polimorfismo self**
+
+![lobo](loboferoz.jpg)
 
 *El lobo feroz necesita un sistema para simular sus actividades diarias y poder saber si va a dejar de estar gordo (o “rellenito” como piensa él cada vez que se mira al espejo)*
 
